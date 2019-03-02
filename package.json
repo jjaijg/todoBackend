@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js localhost 8080"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.13"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "author": "jaijg",
+  "license": "ISC",
+  "keywords": []
+}
